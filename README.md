@@ -6,11 +6,11 @@ This Java quiz application offers an interactive multiple-choice and true/false 
 
 The application consists of five main Java files, organized to handle multiple-choice and true/false questions, track scores, and manage user input through GUI elements.
 
-* quiz_adv.java: The main driver class that creates and manages instances of quiz questions.
-* MultipleChoiceQuestion.java: Handles multiple-choice questions with up to five possible answers. This class extends the abstract Question class, inheriting its core structure and adding specific behavior for multiple-choice interactions.
-* TrueFalseQuestion.java: Manages true/false questions. It also extends Question, specializing in handling questions with two possible answers.
-* Question.java: An abstract superclass that defines the shared behavior for quiz questions, including GUI components, tracking total questions, and correct answer counts. This class provides methods for displaying questions, capturing user input, and displaying results.
-* QuestionDialog.java: A dialog-based class for capturing user input using GUI buttons and ActionListeners. It provides a reusable interface for the Question classes to manage user input.
+* **quiz_adv.java**: The main driver class that creates and manages instances of quiz questions.
+* **MultipleChoiceQuestion.java**: Handles multiple-choice questions with up to five possible answers. This class extends the abstract Question class, inheriting its core structure and adding specific behavior for multiple-choice interactions.
+* **TrueFalseQuestion.java**: Manages true/false questions. It also extends Question, specializing in handling questions with two possible answers.
+* **Question.java**: An abstract superclass that defines the shared behavior for quiz questions, including GUI components, tracking total questions, and correct answer counts. This class provides methods for displaying questions, capturing user input, and displaying results.
+* **QuestionDialog.java**: A dialog-based class for capturing user input using GUI buttons and ActionListeners. It provides a reusable interface for the Question classes to manage user input.
 
 
 ## How It Works
